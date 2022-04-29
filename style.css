@@ -42,7 +42,7 @@ a {
     display: flex;
     background-color: #1F2937;
     justify-content: space-evenly;
-    padding: 200px 60px 100px 60px;
+    padding: 200px 100px 100px 100px;
 }
 
 .info-head {
@@ -67,7 +67,7 @@ a {
     border: 2px solid #1F2960;
     border-radius: 8px;
     height: auto;
-    max-width: 450px;
+    max-width: 500px;
     animation-name: sonic;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -155,4 +155,44 @@ button:active {
     font-weight: 100;
     font-style: italic;
     flex-wrap: wrap;
+}
+
+.banner {
+    display: flex;
+    margin: 80px 400px;
+    background-color: #3882F6;
+    border-radius: 18px;
+    padding: 40px 30px;
+    justify-content: space-around;
+}
+
+.banner-info {
+    display: flex;
+    color: #F9FAF8;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.banner-header, .banner-text {
+    display: flex;
+}
+
+.banner-header {
+    font-size: 24px;
+}
+
+.banner-button {
+    display: flex;
+    border-color: solid white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    background-color:#1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    color: white;
 }
