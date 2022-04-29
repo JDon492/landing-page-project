@@ -42,7 +42,7 @@ a {
 .info {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 200px 100px 100px 100px;
 }
 
@@ -62,6 +62,7 @@ a {
     flex-direction: column;
     justify-content: center;
     gap: 16px;
+    padding-right: 40px;
 }
 
 .sonic-joe {
